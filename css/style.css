@@ -73,3 +73,8 @@ body {
 .switch input:checked+.slider:before {
     transform: translateX(1.5em);
 }
+
+/* dark mode style */
+.dark-mode {
+    background-color: black;
+}
