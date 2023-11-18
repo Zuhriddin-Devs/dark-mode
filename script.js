@@ -1,6 +1,6 @@
-const elSlider = document.querySelector('#js-slider');
+const elCheckBox = document.querySelector('#js-checkbox');
 const elBody = document.querySelector('body');
 
-elSlider.addEventListener('click', () => {
+elCheckBox.addEventListener('click', () => {
     elBody.classList.toggle('dark-mode');
 });
